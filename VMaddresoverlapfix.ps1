@@ -34,7 +34,7 @@ az vm nic remove --resource-group rg01 --vm-name vm01 --nics oldnic
 az network vnet subnet delete --resource-group rg01 --vnet-name vnet01 --name oldsubnet
 
 #Remove old address space 
-### I would recommend doing this via the CLI if this is a production vnet otherwise follow the below code replace "10.2.0.0/16" with the range you want to remove)
+### I would recommend doing this via the portal if this is a production vnet otherwise follow the below code replace "10.2.0.0/16" with the range you want to remove)
 
 az network vnet show -g myResourceGroup -n myVnet --query addressSpace.addressPrefixes
 addressPrefixes=($(az network vnet show -g myResourceGroup -n myVnet --query addressSpace.addressPrefixes -o tsv))
