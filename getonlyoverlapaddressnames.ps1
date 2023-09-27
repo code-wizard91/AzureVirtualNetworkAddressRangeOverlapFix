@@ -36,4 +36,4 @@ foreach ($sub in $subscriptions) {
 }
 
 # Export CSV
-$results | Export-Csv -Path "C:\Users\mahboob.ali\Documents\simplifiedoverlap.csv" -NoTypeInformation
+$results | Export-Csv -Path "C:\Users\exampleuser\Documents\simplifiedoverlap.csv" -NoTypeInformation
