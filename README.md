@@ -25,5 +25,5 @@ Given these challenges, it's essential for companies to ensure their Azure VNets
 
 # Tutorial
 
-- First run the script "getonlyoverlapaddressnames" to get all vnets with overlap issues, this will trawl all your subsriptions and compare address ranges to find issues. The script will create a CSV document with the matches found. Modify the script and add your own location.
-- 
+- First run the script "getonlyoverlapaddressnames" to get all vnets with overlap issues, this will trawl all your subsriptions and compare address ranges to find issues. The script will create a CSV document with the matches found. Modify the script and add your own download location.
+- Read tge fix guide md also before proceeding
