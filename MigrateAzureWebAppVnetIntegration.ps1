@@ -1,8 +1,8 @@
 # Variables
-resourceGroupName="YourResourceGroupName"
-appName="YourWebAppName"
-vnetName="YourVnetName"
-newSubnetName="YourNewSubnetName"
+resourceGroupName="rg01"
+appName="webapp01"
+vnetName="vnet01"
+newSubnetName="subnet01"
 
 # Login to Azure (this will prompt you to open a page and enter a code if not already logged in)
 az login
@@ -12,8 +12,6 @@ az network vnet subnet update --name $newSubnetName --vnet-name $vnetName --reso
 
 # Remove existing VNet Integration from the Web App
 az webapp vnet-integration remove --name $appName --resource-group $resourceGroupName --vnet $vnetName
-
-# Wait for a few minutes. Removing VNet integration might take some time.
 
 # Add new VNet Integration to the Web App using the new subnet
 az webapp vnet-integration add --name $appName --resource-group $resourceGroupName --vnet $vnetName --subnet $newSubnetName
