@@ -16,3 +16,14 @@ Migration Challenges: Companies transitioning resources to Azure from on-premise
 Security Concerns: Incorrect routing due to overlaps could potentially expose services and resources to unintended networks, leading to potential security vulnerabilities.
 
 Given these challenges, it's essential for companies to ensure their Azure VNets have unique IP address ranges to guarantee optimal networking operations. This repository aims to address these concerns by offering tools and methodologies to detect and fix such overlaps.
+
+# Pre-Requisites 
+
+- Powershell Installed
+
+- Install Azure PowerShell module - (Use Install-Module Az to install the official Azure PowerShell module on your local machine. Then use Connect-AzAccount to authenticate)
+
+# Tutorial
+
+- First run the script "getonlyoverlapaddressnames" to get all vnets with overlap issues, this will trawl all your subsriptions and compare address ranges to find issues. The script will create a CSV document with the matches found. Modify the script and add your own location.
+- 
