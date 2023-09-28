@@ -1,3 +1,5 @@
+Note: is a guide I used for creating the logic behind my scripts.
+
 Analyse the network very carefully. Looking at any services that are deployed into the VNET. this could be private endpoints, Web apps, Function apps.
 
 Also check the vnet connected devices (Example below is moving a vm which is inside a overlapping address range, We will be creating a new range and subnet and moving the VM over) 
