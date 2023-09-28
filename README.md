@@ -32,7 +32,7 @@ Given these challenges, it's essential for companies to ensure their Azure VNets
 
 # Tutorial for moving Web app vnet integration to a new address range and subnet
 
-- First run the script to find all apps with vnet integration enabled
+- First run the script FindAllWebAppsWithVnetIntegrationEnabled.ps1 to find all apps with vnet integration enabled
 - Analyse the results and identify the names of the vnets, keep them at hand.
 - Use the MigrateAzureWebAppVnetIntegration.ps1 script to migrate your Web apps.
 - You can further modify the script and add all your vnet names in one variable and loop over them, this will enable you to remove multiple vnet integrations in one go. You could go further and do the same loop but for attaching new vnet integrations to the web apps.
