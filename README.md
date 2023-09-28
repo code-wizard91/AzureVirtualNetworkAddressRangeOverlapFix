@@ -33,5 +33,5 @@ Given these challenges, it's essential for companies to ensure their Azure VNets
 # Tutorial for moving Web app vnet integration to a new address range and subnet
 
 - First the script to find all apps with vnet integration enabled
-- Analyse the results and identify the names of the vnet and subnets keep them at hand
-- Use the 
+- Analyse the results and identify the names of the vnets, keep them at hand.
+- Use the fix script 
