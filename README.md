@@ -20,7 +20,7 @@ Given these challenges, it's essential for companies to ensure their Azure VNets
 # Pre-Requisites 
 
 - Powershell Installed
-
+- az cli installed
 - Install Azure PowerShell module - (Use Install-Module Az to install the official Azure PowerShell module on your local machine. Then use Connect-AzAccount to authenticate)
 
 # Tutorial for fixing overlap and moving VM to new address range and subnet
