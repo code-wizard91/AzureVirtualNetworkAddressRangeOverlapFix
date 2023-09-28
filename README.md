@@ -23,6 +23,10 @@ Given these challenges, it's essential for companies to ensure their Azure VNets
 - az cli installed
 - Install Azure PowerShell module - (Use Install-Module Az to install the official Azure PowerShell module on your local machine. Then use Connect-AzAccount to authenticate)
 
+# Basic example
+- The BasicAddressRangeFixV1.sh script will create a new address range and will also create a new subnet in the existing address range. Customise this script depending on your use case. 
+
+
 # Tutorial for fixing overlap and moving VM to new address range and subnet
 
 - There are 2 versions of the script for moving vms, try both v1 and v2 and customise as needed.
