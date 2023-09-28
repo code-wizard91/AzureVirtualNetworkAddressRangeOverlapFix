@@ -25,6 +25,7 @@ Given these challenges, it's essential for companies to ensure their Azure VNets
 
 # Tutorial
 
+- There are 2 versions of the script, try both v1 and v2 and customise as needed.
 - First run the script "getonlyoverlapaddressnames" to get all vnets with overlap issues, this will trawl all your subsriptions and compare address ranges to find issues. The script will create a CSV document with the matches found. Modify the script and add your own download location.
 - Read the fix guide md also before proceeding
 - Note: Current tutorial applies when moving a azure vm to a new address range to fix an overlapping range issue. Once the resources are moved the overlapping range is deleted to solve this overlap.
